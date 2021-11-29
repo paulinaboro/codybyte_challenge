@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#search-bar{
+  margin: 20px;
+}
+.errorMsg {
+  color: red;
+}
+
+.text-message{
+  color: green;
+weight: bold;
+}
+
+/* Grid */
+.images-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+#next_btn {
+  background-color: #282c34;
+  color: white;
+  width: 120px;
+  padding: 10px 15px;
+}
+
+#next_btn: hover {
+  background-color: yellow;
+}
