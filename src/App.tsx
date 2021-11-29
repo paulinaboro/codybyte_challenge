@@ -22,7 +22,6 @@ function App() {
 
         setImages(data);
         setLoading(true);
-        console.log(images);
       } catch (error) {
         console.log('error', error);
       }
